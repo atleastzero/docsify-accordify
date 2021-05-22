@@ -1,0 +1,11 @@
+{
+  "name": "docsify-accordify",
+  "version": "1.0.0",
+  "description": "Accordions for your Docsify site!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Megan OBryan (atleastzero)",
+  "license": "ISC"
+}

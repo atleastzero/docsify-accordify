@@ -1,0 +1,33 @@
+.accordion {
+  background-color: #444;
+  color: #ccc;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.plus {
+  position: absolute;
+  right: 18px;
+  padding-right: 18px;
+}
+
+.opened,
+.accordion:hover {
+  background-color: #888;
+}
+
+.accordion > a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #666;
+}
