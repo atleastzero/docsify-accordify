@@ -1,5 +1,7 @@
 # Accordify
 
+[![Mentioned in Awesome Docsify](https://awesome.re/mentioned-badge.svg)](https://github.com/docsifyjs/awesome-docsify)
+
 A simple script and sample stylesheet for using accordions in Docsify!
 
 ## How to Use
