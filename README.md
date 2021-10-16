@@ -23,7 +23,7 @@ A simple script and sample stylesheet for using accordions in Docsify!
 3. Indicate which headers you'd like to accordify by adding " +" to the end, like this:
 
 ```markdown
-## My great accordion
+## My great accordion +
 
 Peekaboo!
 ```
