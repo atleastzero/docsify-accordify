@@ -28,7 +28,7 @@ A simple script and sample stylesheet for using accordions in Docsify!
 Peekaboo!
 ```
 
-5. Enjoy!
+4. Enjoy!
 
 ### Comments-Pre Parser
 
