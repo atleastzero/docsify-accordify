@@ -1,0 +1,56 @@
+.accordion {
+    background-color: #eee;
+    color: #ccc;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: padding 0s, max-height 0.2s, height 0.2s;
+}
+
+.plus-container {
+    position: absolute;
+    right: 18px;
+    padding-right: 18px;
+}
+
+.plus.opened {
+    display: none;
+}
+.plus-container.opened:before {
+    content: "-"
+}
+
+.accordion.opened {
+    background-color: #ccc;
+}
+.accordion:hover {
+    background-color: #ddd;
+}
+
+.accordion {
+    margin-bottom: 0 !important;
+}
+
+.accordion > a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.panel.opened {
+    transform: scaleY(1);
+    padding: 18px;
+    transition: padding 0s 0s, transform 0.1s 0s ease-in;
+}
+
+.panel {
+    transform: scaleY(0);
+    transform-origin: top;
+    padding: 0;
+
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-top: none;
+    transition: transform 0.1s 0s ease-in, padding 0s 0.1s;
+}
