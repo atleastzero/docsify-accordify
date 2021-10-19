@@ -247,6 +247,8 @@ function loadAccordions(hook, vm) {
 // ####################################################
 if (window.$docsify && window.$docsify.plugins) {
     window.$docsify.plugins.push(AccordifyPlugin)
+} else if (window.$docsify) {
+  window.$docsify.plugins = [AccordifyPlugin]
 } else {
     console.warn("You are using an outdated version of Accordify. Please checkout the github page for further information.")
 }
