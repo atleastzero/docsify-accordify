@@ -26,8 +26,14 @@
 }
 
 .panel {
+  transform: scaleY(0);
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #666;
+}
+
+.panel.opened {
+  transform: scaleY(1);
+  display: block;
 }
